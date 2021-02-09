@@ -1,0 +1,44 @@
+#sidebar{
+    width: 250px;
+    background: black;
+    height: 100vh;
+    position: fixed;
+    transition: transform 0.5s;
+}
+
+.close{
+    transform: translate(-250px,0);
+}
+
+#sidebar i{
+    position: absolute;
+    font-size: 25px;
+    right: 16px;
+    top: 16px;
+    color: #bbb;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+#sidebar i:hover{
+    color: white;
+}
+
+#sidebar ul{
+    padding: 30px 50px;
+}
+
+#sidebar ul li{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.5s;
+}
+
+#sidebar a:hover{
+    color: white;
+}

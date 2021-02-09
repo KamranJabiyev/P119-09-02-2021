@@ -1,0 +1,8 @@
+.cursor{
+    cursor: pointer;
+    
+}
+
+li:hover{
+    background: teal;
+}
